@@ -59,7 +59,7 @@ return [
             'throw' => false,
             'report' => false,
         ],
-
+        'basset' => [ 'driver' => 'local', 'root' => storage_path('app/basset'), 'url' => env('APP_URL').'/erp/core/storage/app/basset', 'visibility' => 'public', ],
     ],
 
     /*
