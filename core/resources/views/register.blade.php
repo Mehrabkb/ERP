@@ -104,6 +104,9 @@
     </form>
 
     <form id="registerForm">
+      <input type="text" placeholder="نام" name="name" required>
+      <input type="text" placeholder="نام خانوادگی" name="lastname" required>
+      <input type="text" placeholder="کدملی" name="nationalcode" required>
       <input type="text" placeholder="موبایل" name="mobile" required>
       <input type="password" placeholder="رمز عبور" name="password" required>
       <button type="submit">ثبت‌نام</button>
