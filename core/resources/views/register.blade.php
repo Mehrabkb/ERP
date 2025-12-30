@@ -18,12 +18,12 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background: linear-gradient(135deg, #667eea, #764ba2);
+      background: linear-gradient(135deg, #4dc9e6, #210cae)
     }
 
     .container {
       width: 400px;
-      background: #fff;
+      background: #f5f5f5;
       border-radius: 12px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.2);
       overflow: hidden;
@@ -39,15 +39,15 @@
       flex: 1;
       padding: 15px;
       border: none;
-      background: none;
+      background: #dfdfdf;
       cursor: pointer;
       font-weight: 600;
       transition: background 0.3s;
     }
 
     .tabs button.active {
-      background: #667eea;
-      color: #fff;
+      background: #3950b4;
+      color: #f5f5f5;
     }
 
     form {
@@ -66,6 +66,7 @@
       border: 1px solid #ccc;
       border-radius: 8px;
       outline: none;
+      text-align: end;
       transition: border 0.3s;
     }
 
@@ -78,7 +79,7 @@
       padding: 12px;
       border: none;
       border-radius: 8px;
-      background: #667eea;
+      background: #425dd6;
       color: #fff;
       font-weight: 600;
       cursor: pointer;
@@ -86,7 +87,7 @@
     }
 
     form button:hover {
-      background: #764ba2;
+      background: #3950b4;
     }
   </style>
 </head>
